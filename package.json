@@ -1,0 +1,29 @@
+{
+  "name": "sycmjsapi",
+  "version": "1.0.0",
+  "description": "spider js file web",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./src/app.js",
+    "app": "node ./src/douyin/signature-toutiao/wrap_sign"
+  },
+  "author": "",
+  "license": "ISC",
+  "nanachi": {
+    "alias": {
+      "@utils": "src/utils"
+    }
+  },
+  "dependencies": {
+    "express": "^4.17.3",
+    "js-cookie": "3.0.1",
+    "jsdom": "^16.6.0",
+    "moment": "^2.29.1",
+    "xmlhttprequest": "^1.8.0",
+    "yarn": "^1.22.17"
+  },
+  "devDependencies": {
+    "babel-plugin-import": "^1.13.3"
+  }
+}
